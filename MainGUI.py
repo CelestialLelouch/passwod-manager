@@ -56,7 +56,7 @@ createAcc()
 logIn()
 
 """ COMPONENTS """
-btnGenPass = ctk.CTkButton(root, text= 'CLick Me', command=createProfile);
+btnGenPass = ctk.CTkButton(root, text= ' Generate Password', command=createProfile);
 btnGetProf = ctk.CTkButton(root, text='Get Profiles',command= getProfiles);
 entry_platform = ctk.CTkEntry(root, width=200,  placeholder_text='Platform');
 entry_username = ctk.CTkEntry(root, width=200,placeholder_text='Username');
